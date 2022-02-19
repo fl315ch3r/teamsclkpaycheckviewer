@@ -1,16 +1,30 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+   "isError":0,
+   "data":{
+      "success":true,
+      "object":[
+         {
+            "id":1,
+            "name":"Fin de turno"
+         },
+         {
+            "id":2,
+            "name":"Traslado de obra"
+         },
+         {
+            "id":3,
+            "name":"Desayuno"
+         },
+         {
+            "id":4,
+            "name":"Cita médica"
+         },
+         {
+            "id":5,
+            "name":"Otro"
+         }
+      ]
+   },
+   "nextaction":"",
+   "serverdatetime":"2022-02-17 21:56:04"
 }
