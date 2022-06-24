@@ -1,32 +1,233 @@
 {
-    "docdb": {
-   "isError":0,
-   "data":{
-      "success":true,
-      "object":[
-         {
-            "id":1,
-            "name":"Fin de turno"
-         },
-         {
-            "id":2,
-            "name":"Traslado de obra"
-         },
-         {
-            "id":3,
-            "name":"Desayuno"
-         },
-         {
-            "id":4,
-            "name":"Cita médica"
-         },
-         {
-            "id":5,
-            "name":"Otro"
-         }
-      ]
-   },
-   "nextaction":"",
-   "serverdatetime":"2022-02-17 21:56:04"
-}
+    "isError": 0,
+    "data": {
+        "success": true,
+        "object": [
+            {
+                "id": 363,
+                "name": "Inspección Reactor",
+                "description": "Inspección diaria del reactor Nro. 1",
+                "idcollaborator": 12,
+                "idcategory": 3,
+                "colorCategory": "ce1e1e",
+                "creationdate": "2021-11-12",
+                "executiondate": "2021-11-12 08:00:00",
+                "status": "PENDING",
+                "order": 2,
+                "priority": 1,
+                "latitude":"-34.9097096",
+                "longitude":"-54.95423",
+                "comment": "añldkfñaldkjsf",
+                "items": [
+                    {
+                        "id": 1839,
+                        "name": "Inspección visual de conexiones del motor",
+                        "iscomplete": false
+                    },{
+                        "id": 1840,
+                        "name": "Ausencia de ruidos y vibraciones en el motor",
+                        "iscomplete": false
+                    },{
+                        "id": 1841,
+                        "name": "Temperatura del motor (Rodamiento lado agitador)",
+                        "iscomplete": false
+                    },{
+                        "id": 1842,
+                        "name": "Control visual de fugas en el depósito",
+                        "iscomplete": false
+                    },{
+                        "id": 1843,
+                        "name": "Inspección visual de conexiones en el medidor de caudal",
+                        "iscomplete": false
+                    },{
+                        "id": 1844,
+                        "name": "Inspección visual de conexiones en sonda de temperatura",
+                        "iscomplete": false
+                    },{
+                        "id": 1845,
+                        "name": "Ausencia de fugas en filtro de barniz",
+                        "iscomplete": false
+                    },{
+                        "id": 1846,
+                        "name": "Inspección visual de polipasto",
+                        "iscomplete": false
+                    }
+                ]
+            },{
+                "id": 364,
+                "name": "Inspección Mezclador",
+                "description": "Inspección semanal del mezclador Nro. 3",
+                "idcollaborator": 12,
+                "idcategory": 3,
+                "colorCategory": "1e30ce",
+                "creationdate": "2021-11-12",
+                "executiondate": "2021-11-12 09:30:00",
+                "status": "PENDING",
+                "order": 1,
+                "priority": 3,
+                "latitude":"-34.9097096",
+                "longitude":"-54.95423",
+                "comment": "añldkfñaldkjsf",
+                "items": [
+                    {
+                        "id": 1839,
+                        "name": "Inspección visual de conexiones del motor",
+                        "iscomplete": false
+                    },{
+                        "id": 1840,
+                        "name": "Ausencia de ruidos y vibraciones en el motor",
+                        "iscomplete": false
+                    },{
+                        "id": 1841,
+                        "name": "Temperatura del motor (Rodamiento lado agitador)",
+                        "iscomplete": false
+                    },{
+                        "id": 1842,
+                        "name": "Control visual de fugas en el depósito",
+                        "iscomplete": false
+                    },{
+                        "id": 1843,
+                        "name": "Inspección visual de bombas del filtro",
+                        "iscomplete": false
+                    },{
+                        "id": 1844,
+                        "name": "Inspección visual de conexiones en sonda de temperatura",
+                        "iscomplete": false
+                    }
+                ]
+            },{
+                "id": 365,
+                "name": "Inspección Circuito",
+                "description": "Inspección diaria del circuito de enfriamiento",
+                "idcollaborator": 12,
+                "idcategory": 3,
+                "colorCategory": "229b93",
+                "creationdate": "2021-11-12",
+                "executiondate": "2021-11-12 10:30:00",
+                "status": "PENDING",
+                "order": 3,
+                "priority": 2,
+                "latitude":"-34.9097096",
+                "longitude":"-54.95423",
+                "comment": "añldkfñaldkjsf",
+                "items": [
+                    {
+                        "id": 1839,
+                        "name": "Comprobar temperatura de la sala",
+                        "iscomplete": false
+                    },{
+                        "id": 1840,
+                        "name": "Comprobar ausencia de fugas",
+                        "iscomplete": false
+                    },{
+                        "id": 1841,
+                        "name": "Comprobar ausencia de ruidos y vibraciones extrañas en bombas sala",
+                        "iscomplete": false
+                    }
+                ]
+            },{
+                "id": 366,
+                "name": "Inspección Caldera 1",
+                "description": "Inspección diaria de la caldera Nro. 1",
+                "idcollaborator": 12,
+                "idcategory": 3,
+                "colorCategory": "10ba2f",
+                "creationdate": "2021-11-12",
+                "executiondate": "2021-11-12 12:00:00",
+                "status": "PENDING",
+                "order": 5,
+                "priority": 1,
+                "latitude":"-34.9097096",
+                "longitude":"-54.95423",
+                "comment": "añldkfñaldkjsf",
+                "items": [
+                    {
+                        "id": 1839,
+                        "name": "Verificar ausencia de ruidos, fugas y vibraciones extrañas en bombas",
+                        "iscomplete": false
+                    },{
+                        "id": 1840,
+                        "name": "Verificar presiones de salida en bombas",
+                        "iscomplete": false
+                    },{
+                        "id": 1841,
+                        "name": "Verificar temperatura de rodamiento delantero de bomba",
+                        "iscomplete": false
+                    },{
+                        "id": 1842,
+                        "name": "Comprobar nivel de aceite",
+                        "iscomplete": false
+                    },{
+                        "id": 1843,
+                        "name": "Ausencia de fugas en depósitos",
+                        "iscomplete": false
+                    },{
+                        "id": 1844,
+                        "name": "Comprobar temperatura de entrada y salida de aceite de la caldera",
+                        "iscomplete": false
+                    },{
+                        "id": 1845,
+                        "name": "Comprobar temperatura de humos de salida",
+                        "iscomplete": false
+                    },{
+                        "id": 1846,
+                        "name": "Comprobar temperatura de gas antes y después de válvula reductora",
+                        "iscomplete": false
+                    }
+                ]
+            },{
+                "id": 367,
+                "name": "Inspección Caldera 2",
+                "description": "Inspección diaria de la caldera Nro. 2",
+                "idcollaborator": 12,
+                "idcategory": 3,
+                "colorCategory": "eaea17",
+                "creationdate": "2021-11-12",
+                "executiondate": "2021-11-12 14:00:00",
+                "status": "PENDING",
+                "order": 4,
+                "priority": 1,
+                "latitude":"-34.9097096",
+                "longitude":"-54.95423",
+                "comment": "añldkfñaldkjsf",
+                "items": [
+                    {
+                        "id": 1839,
+                        "name": "Verificar ausencia de ruidos, fugas y vibraciones extrañas en bombas",
+                        "iscomplete": false
+                    },{
+                        "id": 1840,
+                        "name": "Verificar presiones de salida en bombas",
+                        "iscomplete": false
+                    },{
+                        "id": 1841,
+                        "name": "Verificar temperatura de rodamiento delantero de bomba",
+                        "iscomplete": false
+                    },{
+                        "id": 1842,
+                        "name": "Comprobar nivel de aceite",
+                        "iscomplete": false
+                    },{
+                        "id": 1843,
+                        "name": "Ausencia de fugas en depósitos",
+                        "iscomplete": false
+                    },{
+                        "id": 1844,
+                        "name": "Comprobar temperatura de entrada y salida de aceite de la caldera",
+                        "iscomplete": false
+                    },{
+                        "id": 1845,
+                        "name": "Comprobar temperatura de humos de salida",
+                        "iscomplete": false
+                    },{
+                        "id": 1846,
+                        "name": "Comprobar temperatura de gas antes y después de válvula reductora",
+                        "iscomplete": false
+                    }
+                ]
+            }
+        ]
+    },
+    "nextaction": "",
+    "serverdatetime": "2022-03-16 23:30:07"
 }
